@@ -1,6 +1,6 @@
 .uncommon {
     font-family: "Times New Roman", Times, serif;
-    color:#245D7B
+    color:#2e7aa2
 
 
 }
@@ -18,7 +18,7 @@
 
 .mainbody{
     background-color: #2B2624;
-    color: #245D7B
+    color: #2e7aa2
 }
 
 img{
@@ -42,19 +42,38 @@ nav{
     background-color: #D27D56;
     padding: 10px;
     overflow:hidden;
+   
 }
 
 nav a{
     float:left;
     padding: 10px;
-    color:#D27D56
+    color: white;
     text-decoration:none;
-    font-size: 16px:
+    font-size: 16px;
     font-weight: bold;
 }
 nav a:hover{
-    background-color:#cf6737
+    background-color:#d7581d;
+    color: white;
+}
 
+/* Style all links to be white */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
 }
 .video-right {
   display: flex;
@@ -80,6 +99,15 @@ nav a:hover{
     text-align: left;
     padding-left: 60px;
     padding: 10px;
+}
+
+/* Style lists to be larger, slightly smaller than h2 */
+ol, ul {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
 }
 
 
